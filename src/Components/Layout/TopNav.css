@@ -1,0 +1,30 @@
+.nav
+{
+    height: 100px;
+    margin: 0%;
+    width: auto;
+}
+.nav-img
+{
+    height: 100px !important;
+    width: 100px;
+}
+.nav-text-top
+{
+    font-size: 17px;
+    font-weight: 600;
+    color: black;
+}
+.nav-name
+{
+    margin-left: 620px !important;
+}
+
+@media screen and (max-width: 500px) {
+    .nav a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+}
+    
