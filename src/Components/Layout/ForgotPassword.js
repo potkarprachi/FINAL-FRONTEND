@@ -141,8 +141,8 @@ function ForgotPassword() {
             <Row>
               <Col lg={12}>
                 <Form.Group className="mb-3 m-5">
-                  <Form.Label>Enter Registered Email</Form.Label>
-                  <Form.Control
+                  <Form.Label className="text-dark">Enter Registered Email</Form.Label>
+                  <Form.Control 
                     className="mt-4"
                     type="text"
                     placeholder="Enter email"
@@ -159,7 +159,7 @@ function ForgotPassword() {
               {otp && (
                 <Col lg={12}>
                   <Form.Group className="mb-3 m-5">
-                    <Form.Label>
+                    <Form.Label className="text-dark">
                       Enter OTP (OTP send on Above Mail Pls Check)
                     </Form.Label>
                     <Form.Control
