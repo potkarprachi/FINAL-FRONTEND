@@ -78,7 +78,7 @@ export function EditPassword(props) {
           <Row>
             <Col lg={12}>
               <Form.Group className="mb-3">
-                <Form.Label>New Password</Form.Label>
+                <Form.Label className="text-dark">New Password</Form.Label>
                 <Form.Control
                   type="password"
                   placeholder="Enter password"
@@ -93,7 +93,7 @@ export function EditPassword(props) {
             </Col>
             <Col lg={12}>
               <Form.Group className="mb-3">
-                <Form.Label>Confirm New Password</Form.Label>
+                <Form.Label className="text-dark">Confirm New Password</Form.Label>
                 <Form.Control
                   type="password"
                   placeholder="Enter Confirm password"

@@ -79,5 +79,9 @@ export function userPasswordUpdate(formData) {
   console.log(formData);
   return axios.post(`${BASE_URL}/forgotpassword`, formData);
 }
+export function getCropInfo(id)
+{
+  return axios.get(`${BASE_URL}/getCropDetails/${id}`)
+}
 
 //done

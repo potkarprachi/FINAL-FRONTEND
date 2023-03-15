@@ -27,6 +27,7 @@ import AdminContactUs from "./Components/Admin/AdminContactUs";
 import { Footer } from "./Components/Layout/Footer";
 import ForgotPassword from "./Components/Layout/ForgotPassword";
 import { EditPassword } from "./Components/Layout/EditPassword";
+import { ConfirmOrder } from "./Components/Customer/ConfirmOrder";
 
 
 
@@ -61,6 +62,7 @@ function App() {
             <Route path="/adminContactUs" element={<AdminContactUs/>}></Route>
             <Route path="/forgotpassword" element={<ForgotPassword></ForgotPassword>}></Route>
             <Route path="/editpassword" element={<EditPassword></EditPassword>}></Route>
+            <Route path="/confirmorder" element={<ConfirmOrder/>}></Route>
             </Routes>
             <Footer></Footer>
         </BrowserRouter>
